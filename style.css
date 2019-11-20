@@ -1,0 +1,197 @@
+body {
+  /* background-image: url(./imgs/semmless1.jpg); */
+  background-color: rgb(183, 250, 250);
+  font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+.body {
+  margin: 10px auto;
+  width: 70%;
+
+}
+ /*---------------------Main Header----------------------*/
+
+.mainHeader img {
+  width: 100%;
+}
+.mainHeader nav {
+  background-color: red;
+  margin-top: -10px; 
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.mainHeader nav ul {
+  text-align: center;
+  list-style: none;
+}
+.mainHeader nav ul li {
+  display: inline
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: blue;
+}
+a:hover, a:active {
+  color: cadetblue;
+}
+
+.mainHeader nav ul li a{
+  color: aliceblue;
+  padding: 10px 20px  ;
+  display: inline-block;  
+}
+
+.mainHeader nav ul li a:hover{
+  background-color: #e67e22;
+}
+ /*---------------------Main Content----------------------*/
+.main-content {
+  width: 70%;
+  float: left;
+}
+.top-content {
+  background-color: white;
+  padding: 8%;
+  margin-top: 3%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.post-info {
+  font-size: 90%;
+  font-style: italic;
+  color: #999;
+  margin-top: -20px;
+}
+.post-content {
+  display: block;
+}
+
+.theSideBar {
+  background-color: white;
+  border-radius: 5px;
+  float: right;
+  width: 20%;
+  padding: 4%;
+  margin-top: 2%;
+}
+.footer{
+  background-color: red;
+  margin-top: 20px; 
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  float: left;
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+  width: 90%;
+}
+
+.post-img {
+  width: 100%;
+  height: 200px;
+}
+
+figure {
+  margin: 35px 0;
+  font-size: 80%;
+  color: #999;
+  font-style: italic;
+}
+
+ /*---------------------CSS3 For Mobile ----------------------*/
+@media screen and (max-width: 560px) {
+  body {
+    font-size: 85%;
+    } 
+    .body {
+      margin: 10px auto;
+      width: 90%;
+    }
+ /*---------------------Mobaile Main Header----------------------*/
+.mainHeader nav {
+  
+}
+.mainHeader nav ul li {
+  display: block;
+}
+/*------------Main Content-----------*/
+.main-content {
+  width: 100%;
+}
+.top-content {
+  background-color: white;
+  padding: 8%;
+  margin-top: 3%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.post-info {
+  font-size: 90%;
+  font-style: italic;
+  color: #999;
+  margin-top: -20px;
+}
+.post-content {
+  display: block;
+}
+
+.theSideBar {
+  padding: 10px auto;
+  width: 100%;
+  margin-top: 2%;
+}
+.footer{
+  background-color: red;
+  margin-top: 20px; 
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  float: left;
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+  width: 90%;
+}
+
+.post-img {
+  width: 100%;
+  height: 200px;
+}
+
+figure {
+  margin: 35px 0;
+  font-size: 80%;
+  color: #999;
+  font-style: italic;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
